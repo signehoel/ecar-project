@@ -129,7 +129,7 @@ data = [
     "Brand": "Honda",
     "Model": "Clarity Plug-in Hybrid",
     "Price": 34355,
-    "Image": "Hondaclaritypluginhybrid.png",
+    "Image": "hondaclaritypluginhybrid.png",
     "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
     "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
     "Range": 0
