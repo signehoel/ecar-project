@@ -1,0 +1,137 @@
+data = [
+  {
+    "Brand": "BMW",
+    "Model": "i8 coupe",
+    "Price": 149900,
+    "Image": "i8.jpg",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 259
+  },
+  {
+    "Brand": "BMW",
+    "Model": "i3",
+    "Price": 44950,
+    "Image": "i3.jpg",
+    "Specifics": "<ul><li>Weight: 2,635 lbs</li> <li>Battery: 33kWh</li><li>Acceleration: 7.2 seconds 0-60 mph</li> <li>Cargo: 15.1 - 36.9 cubic feet </li><li>Warranty: 8-year / 100,000 mile High-Voltage Battery</li></ul>",
+    "Description": "<ul><li>Mid-sized</li><li>Fully electric vehicle</li><li>Seats 4 people</li> <li>All wheel drive </li><li>BMW Assist eCall</li><li>Parking sensors</li><li>Available in 6 colours</li></ul>",
+    "Range": 114
+  },
+  {
+    "Brand": "Tesla",
+    "Model": "Model S",
+    "Price": 114810,
+    "Image": "TeslaS.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 390
+  },
+  {
+    "Brand": "Tesla",
+    "Model": "Model Y",
+    "Price": 65000,
+    "Image": "TeslaY.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 230
+  },
+  {
+    "Brand": "Tesla",
+    "Model": "Model X",
+    "Price": 114810,
+    "Image": "model-x.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 325
+  },
+  {
+    "Brand": "Hyundai",
+    "Model": "Ioniq",
+    "Price": 41499,
+    "Image": "HundaiIoniq.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 170
+  },
+  {
+    "Brand": "Hyundai",
+    "Model": "Kona Electric",
+    "Price": 44999,
+    "Image": "HyundaiKonaElectric.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 258
+  },
+  {
+    "Brand": "Kia",
+    "Model": "Niro EV",
+    "Price": 44995,
+    "Image": "Kanniroev.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 239
+  },
+  {
+    "Brand": "Kia",
+    "Model": "Niro plug-in Hybrid",
+    "Price": 35695,
+    "Image": "KiaNiroPluginHybrid.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 0
+  },
+  {
+    "Brand": "Kia",
+    "Model": "Soul EV",
+    "Price": 35895,
+    "Image": "Kiasoulev.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 0
+  },
+  {
+    "Brand": "Porche",
+    "Model": "Taycan",
+    "Price": 119400,
+    "Image": "Porschetaycan.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 280
+  },
+  {
+    "Brand": "Volkswagen",
+    "Model": "ID.3",
+    "Price": 33180,
+    "Image": "Volkswagenid3.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 0
+  },
+  {
+    "Brand": "Volkswagen",
+    "Model": "E-Golf",
+    "Price": 37895,
+    "Image": "Volkswagenegolf.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 125
+  },
+  {
+    "Brand": "Honda",
+    "Model": "Clarity Fuel Cell",
+    "Price": 59445,
+    "Image": "hondaclarityfuelcell.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 0
+  },
+  {
+    "Brand": "Honda",
+    "Model": "Clarity Plug-in Hybrid",
+    "Price": 34355,
+    "Image": "hondaclaritypluginhybrid.png",
+    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Range": 0
+  }
+]

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="index.css" rel="stylesheet">
+    <script src="data.json"></script>
+  </head>
+  <body>
+
+  <!-- MAIN (Center website) -->
+    <div class="main">
+
+      <h1>E-CAR INFO</h1>
+      <hr>
+
+      <h2>PORTFOLIO</h2>
+
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('BMW')"> BMW</button>
+        <button class="btn" onclick="filterSelection('Tesla')"> Tesla</button>
+        <button class="btn" onclick="filterSelection('Hyundai')"> Hyundai</button>
+        <button class="btn" onclick="filterSelection('Kia')"> Kia</button>
+        <button class="btn" onclick="filterSelection('Porche')"> Porche</button>
+        <button class="btn" onclick="filterSelection('Volkswagen')"> Volkswagen</button>
+        <button class="btn" onclick="filterSelection('Honda')"> Honda</button>
+        <br><br>
+        <button class="btn">No Price Filter</button>
+        <button class="btn">Lowest to Highest</button>
+        <button class="btn">Highest to Lowest</button>
+      </div>
+      <br>
+      <!--
+      <div class="dropdown">
+        <button class="dropbtn">No Price Filter</button>
+        <div class="dropdown-content">
+          <a href="#">$30,000 - $70,000</a>
+          <a href="#">$70,000 - $110,000</a>
+          <a href="#">$110,000 - 150,000</a>
+        </div>
+      </div>
+      -->
+      <!-- Portfolio Gallery Grid -->
+      <div id='row' class="row" >
+      </div>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="myimg"></div>
+          <div id='stuff'></div>
+        </div>
+
+      </div>
+    <!-- END MAIN -->
+    </div>
+
+    <script>
+      getimage();
+      filterSelection("all")
+
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      // When the user clicks on <span> (x), close the modal
+
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+
+
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+      }
+
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
+      function getimage(){
+        mydiv = document.getElementById("row");
+        myhtml = ""
+
+        for (i=0; i<data.length; i++) {
+            if (data[i]['Image']) {
+              myhtml = myhtml + "<div class='column " + data[i]['Brand'] + "'> <div class='content'><a href='#' onclick='openModal(" + i + ")'><img src='images/" + data[i]['Image'] + "' alt='Mountains' style='width:100%'></a><h4>" + data[i]['Brand'] + " - " + data[i]['Model'] + "</h4><p>$ " + data[i]['Price'] + "</p></div></div>"
+            }
+            else {
+              myhtml = myhtml + "<div class='column " + data[i]['Brand'] + "'> <div class='content'><a href='#' onclick='openModal(" + i + ")'><img src= '' alt='Mountains' style='width:100%'></a><h4>" + data[i]['Brand'] + " - " + data[i]['Model'] + "</h4><p>$ " + data[i]['Price'] + "</p></div></div>"
+            }
+        }
+        mydiv.innerHTML = myhtml;
+      }
+
+      function openModal(i) {
+          mymodalp = document.getElementById("stuff");
+          mymodalp.innerHTML = "<div style='width:90%; display: block;margin-left: auto;margin-right: auto;'><h2>" + data[i].Brand + " - " + data[i].Model + "</h2><h3>Price: $" + data[i].Price + "</h3><h3>Specifics:</h3><p>" + data[i].Specifics + "</p><h3>Description:</h3><p>" + data[i].Description + "</p></div>";
+
+          if (data[i]['Image']) {
+              mymodalimg = document.getElementById("myimg");
+              mymodalimg.innerHTML = "<img src='images/" + data[i]['Image'] + "' style='width:90%; display: block;margin-left: auto;margin-right: auto;'>"
+          }
+
+          modal.style.display = 'block';
+      }
+
+      // Add active class to the current button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
+  </body>
+</html>
