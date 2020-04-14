@@ -4,8 +4,8 @@ data = [
     "Model": "i8 coupe",
     "Price": 149900,
     "Image": "i8.jpg",
-    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
-    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Specifics": "<ul><li>Weight: 3,501 lbs</li> <li>Battery: 11.6 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 8-year / 100,000 mile</li><li>High-Voltage Battery</li></ul>",
+    "Description": "<ul><li>Mid-sized</li><li>Plug-in hybrid</li><li>Seats 4 people</li><li>Available in 6 colors</li> <li>Front and rear Head Protection System (HPS) </li><li>Actice Driving Assistant with Surround View</li></ul>",
     "Range": 259
   },
   {
@@ -31,25 +31,25 @@ data = [
     "Model": "Model Y",
     "Price": 65000,
     "Image": "TeslaY.png",
-    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
-    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
-    "Range": 230
+    "Specifics": "<ul><li>Top Speed: 217 km/h</li> <li>0-100 km/h in 5s</li><li>2 independent motors</li> <li>All-wheel drive</li></ul>",
+    "Description": "<ul><li>Autopilot included</li><li>Seats 7 passengers</li><li>Available in 5 colors</li> <li>Full self-driving capability </li><li>Designed for safety: Low centre of gravity and rigid body structure</li></ul>",
+    "Range": 507
   },
   {
     "Brand": "Tesla",
     "Model": "Model X",
     "Price": 114810,
     "Image": "model-x.png",
-    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
-    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
-    "Range": 325
+    "Specifics": "<ul><li>Weight: 5,307 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 7 adults</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>SUV</li><li>Enhanced autopilot features</li></ul>",
+    "Range": 237
   },
   {
     "Brand": "Hyundai",
     "Model": "Ioniq",
     "Price": 41499,
     "Image": "HundaiIoniq.png",
-    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Specifics": "<ul><li>Weight: 3,487 lbs</li><li>Electric fold mirrors with puddle lamp</li> <li>Cargo space</li><li>Touch screen display and navigation system</li> <li>88kW electric motor</li><li>SAE combo-type quick charge port</li></ul>",
     "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
     "Range": 170
   },
@@ -58,7 +58,7 @@ data = [
     "Model": "Kona Electric",
     "Price": 44999,
     "Image": "HyundaiKonaElectric.png",
-    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Specifics": "<ul><li>Weight: 3,715 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
     "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
     "Range": 258
   },
@@ -68,7 +68,7 @@ data = [
     "Price": 44995,
     "Image": "Kanniroev.png",
     "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
-    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
+    "Description": "<ul><li>Fully electric</li><li>Seats 5 adults</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
     "Range": 239
   },
   {
@@ -76,7 +76,7 @@ data = [
     "Model": "Niro plug-in Hybrid",
     "Price": 35695,
     "Image": "KiaNiroPluginHybrid.png",
-    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Specifics": "<ul><li>Weight: 3,889 lbs</li> <li>Active air flap that opens and closes to help cool motors</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
     "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
     "Range": 0
   },
@@ -94,7 +94,7 @@ data = [
     "Model": "Taycan",
     "Price": 119400,
     "Image": "Porschetaycan.png",
-    "Specifics": "<ul><li>Weight: 4,769 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
+    "Specifics": "<ul><li>Weight: 4,894 lbs</li> <li>Battery: 75 kWh</li><li>Acceleration: 4.2 seconds 0-60 mph</li> <li>Warranty: 4 years basic vehicle, 8 years battery & powertrain</li></ul>",
     "Description": "<ul><li>Fully electric</li><li>Seats 5 adults and 2 kids</li><li>Available in 5 colors</li> <li>All wheel drive </li><li>12 ultrasonic sensors</li></ul>",
     "Range": 280
   },
